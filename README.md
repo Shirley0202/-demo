@@ -1,10 +1,6 @@
 # 自定义的转场动画 
 #### 说明
 1.此demo的是在解读其他人的框架时候理解时候而写 仅代表作者本人的想法,有不对的地方请多多指教.
-2.需要更多效果的同学可以参考这个demo,本人就是学习他的框架是简单总结的下面的要点,学习的同学可以参考,
-3具体效果,小伙伴们自己下载demo吧
-<https://github.com/alanwangmodify/WXSTransition>
-
 
 
 无交互转场动画的实现 
@@ -63,4 +59,9 @@ viewDidLoad
 viewWillAppear
 viewWillDisappear
 viewDidDisappear
+
+
+.需要更多效果的同学可以参考这个demo,本人就是学习他的框架是简单总结的下面的要点,学习的同学可以参考,更多的效果,小伙伴们可以下载朋友的demo
+<https://github.com/alanwangmodify/WXSTransition>
+
 
