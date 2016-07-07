@@ -17,7 +17,7 @@
 
 ### 对于 presentView mode出来的 要设置
 
-1. 设置要 ***弹出***  的view的 transitioningDelegate 为一个对象 
+1. 设置要 ***弹出***  的viewController的 transitioningDelegate 为一个对象 
 2. 实现里面的代理方法 
  - (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source   
  1> 返回一个遵守了UIViewControllerAnimatedTransitioning协议的对象 
@@ -39,7 +39,7 @@
 - (id<UIViewControllerAnimatedTransitioning>) navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC
 
 1> 返回一个遵守了UIViewControllerAnimatedTransitioning协议的对象 
- 2> 这个对象里面实现了协议的方法
+2> 这个对象里面实现了协议的方法
 
 - (void)animationEnded:(BOOL)transitionCompleted {
   NSLog(@"%s", __FUNCTION__);
